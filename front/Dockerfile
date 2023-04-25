@@ -1,5 +1,5 @@
 # pull the official base image
-FROM node:alpine
+FROM node:19.5.0-alpine
 
 # set working direction
 WORKDIR /app
